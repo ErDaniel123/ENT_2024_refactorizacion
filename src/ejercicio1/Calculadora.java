@@ -17,14 +17,16 @@ public class Calculadora {
     }
 
     public int dividir(int a, int b) {
-        if (b == 0) {
+       int resultado=0;
+    	if (b == 0) {
             System.out.println("Error: No se puede dividir por cero.");
-            return 0;
-        } else {
-            int resultado = a / b;
             return resultado;
+        } else {
+           resultado = a / b;
+           return resultado;
         }
+    
     }
-
+   
     
 }
