@@ -1,32 +1,31 @@
 package ejercicio1;
 
 public class Calculadora {
-    public int sumar(int a, int b) {
-        int resultado = a + b;
-        return resultado;
-    }
+	public int sumar(int sumando, int restando) {
+		int resultado = sumando + restando;
+		return resultado;
+	}
 
-    public int restar(int a, int b) {
-        int resultado = a - b;
-        return resultado;
-    }
+	public int restar(int minuendo, int sustraendo) {
+		int resultado = minuendo - sustraendo;
+		return resultado;
+	}
 
-    public int multiplicar(int a, int b) {
-        int resultado = a * b;
-        return resultado;
-    }
+	public int multiplicar(int factor1, int factor2) {
+		int resultado = factor1 * factor2;
+		return resultado;
+	}
 
-    public int dividir(int a, int b) {
-       int resultado=0;
-    	if (b == 0) {
-            System.out.println("Error: No se puede dividir por cero.");
-            return resultado;
-        } else {
-           resultado = a / b;
-           return resultado;
-        }
-    
-    }
-   
-    
+	public int dividir(int dividendo, int divisor) {
+		int resultado = 0;
+		if (divisor == 0) {
+			// TODO DIVISION POR 0
+			return resultado;
+		} else {
+			resultado = dividendo / divisor;
+			return resultado;
+		}
+
+	}
+
 }
