@@ -1,6 +1,6 @@
 package ejercicio2;
 
-public class MetodosTienda {
+public class CalculadoraPedidos {
 
 	 public double calcularPrecioTotalPedido(Pedido pedido) {
 			return 0;
